@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&family=Texturina:wght@100&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section id="Enter">
+            <h1 id="heading">Avengers Photo Gallery</h1>
+            <img id="avengers" src="Avengers%20Logo.jpg">
+        </section>
+        <br>
+        <br>
+        <br>
+        <section id="grid-gallery">
+            <h2 id="GridGall">Grid Gallery!!</h2>
+            <img src="Iron%20Man.jpg" class="imgs">
+            <img src="Thor.jpg" class="imgs">
+            <img src="Captain%20America.jpg" class="imgs">
+            <img src="Captain%20Marvel.jpg" class="imgs">
+            <img src="Hulky.jpg" class="imgs">
+            <img src="Spidey%F0%9F%95%B7%F0%9F%95%B8.jpg" class="imgs">
+            <img src="Dr.%20Strange.jpg" class="imgs">
+            <img src="Venom.jpg" class="imgs">
+            <img src="Black%20Panther.jpg" class="imgs">
+            <img src="Thanny%20The%20Grape.jpg" class="imgs">
+        </section>
+
+        <section id="Sliding">
+            <h2 id="SlidingGall">Sliding Gallery!!</h2>
+            <div class="mySlides">
+                <div class="numbertext">1 / 10</div>
+                <img src="Iron%20Man.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 10</div>
+                <img src="Thor.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 10</div>
+                <img src="Captain%20America.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">4 / 10</div>
+                <img src="Captain%20Marvel.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 10</div>
+                <img src="Hulky.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">6 / 10</div>
+                <img src="Spidey%F0%9F%95%B7%F0%9F%95%B8.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 10</div>
+                <img src="Dr.%20Strange.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 10</div>
+                <img src="Venom.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">9 / 10</div>
+                <img src="Black%20Panther.jpg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">10 / 10</div>
+                <img src="Thanny%20The%20Grape.jpg" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="Iron%20Man.jpg" style="width:100%" onclick="currentSlide(1)" alt="Iron Man">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Thor.jpg" style="width:100%" onclick="currentSlide(2)" alt="Thor">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Captain%20America.jpg" style="width:100%" onclick="currentSlide(3)" alt="Captain America">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Captain%20Marvel.jpg" style="width:100%" onclick="currentSlide(4)" alt="Captain Marvel">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Hulky.jpg" style="width:100%" onclick="currentSlide(5)" alt="Hulk">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Spidey%F0%9F%95%B7%F0%9F%95%B8.jpg" style="width:100%" onclick="currentSlide(6)" alt="SpiderMan">
+                    <div class="column">
+                        <img class="demo cursor" src="Dr.%20Strange.jpg" style="width:100%" onclick="currentSlide(7)" alt="Doctor Strange">
+                        <div class="column">
+                            <img class="demo cursor" src="Venom.jpg" style="width:100%" onclick="currentSlide(8)" alt="Venom">
+                            <div class="column">
+                                <img class="demo cursor" src="Black%20Panther.jpg" style="width:100%" onclick="currentSlide(9)" alt="Black Panther">
+                                <div class="column">
+                                    <img class="demo cursor" src="Thanny%20The%20Grape.jpg" style="width:100%" onclick="currentSlide(10)" alt="Thanos">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
